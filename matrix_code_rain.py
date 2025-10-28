@@ -13,9 +13,9 @@ chars = ['ｦ', 'ｱ', 'ｳ', 'ｴ', 'ｵ', 'ｶ', 'ｷ', 'ｹ', 'ｺ', 'ｻ', '
          'ﾊ', 'ﾋ', 'ﾎ', 'ﾏ', 'ﾐ', 'ﾑ', 'ﾒ', 'ﾓ', 'ﾔ', 'ﾕ', 'ﾗ', 'ﾘ', 'ﾜ', '9', '8', '7', '5', '2', '1', ':', '.',
          '"', '=', '*', '+', '-', '¦', '|', '_', '╌', '日']
 
-font = pygame.font.Font('font/ms mincho.ttf', FONT_SIZE)
-font_2 = pygame.font.Font('font/ms mincho.ttf', FONT_SIZE - FONT_SIZE // 6)
-font_3 = pygame.font.Font('font/ms mincho.ttf', FONT_SIZE - FONT_SIZE // 3)
+font = pygame.font.Font('100LinesOfPythonCode\#1534_MATRIX_RAIN_ANIMATION\Font\MS Mincho.ttf', FONT_SIZE)
+font_2 = pygame.font.Font('100LinesOfPythonCode\#1534_MATRIX_RAIN_ANIMATION\Font\MS Mincho.ttf', FONT_SIZE - FONT_SIZE // 6)
+font_3 = pygame.font.Font('100LinesOfPythonCode\#1534_MATRIX_RAIN_ANIMATION\Font\MS Mincho.ttf', FONT_SIZE - FONT_SIZE // 3)
 
 green_chars = [font.render(char, True, (randrange(0, 100), 255, randrange(0, 100))) for char in chars]
 green_chars_2 = [font_2.render(char, True, (40, randrange(100, 175), 40)) for char in chars]

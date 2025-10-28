@@ -1,4 +1,30 @@
-# Matrix_code_rain
-Matrix code rain using Python with Pygame
+# 💻 Matrix Code Rain (Digital Rain Effect)
 
-Create a project folder and put in its code and a font folder with ms mincho.ttf. Then run the code and font will be found with "font = pygame.font.Font('font/ms mincho.ttf', FONT_SIZE)" command line (you don't need to add anything new).
+A mesmerizing **Matrix-style digital rain** animation built using **Python** and **Pygame**.  
+This project recreates the iconic cascading green symbols seen in *The Matrix* movies — a dynamic, glowing rain of Japanese katakana and alphanumeric characters.
+
+---
+
+## 🧠 Project Overview
+
+This project uses the **Pygame** library to create a smooth animation of falling green symbols.  
+It demonstrates:
+- Real-time animation using `pygame` loops  
+- Randomized color and position effects  
+- Use of custom fonts for visual realism  
+- Layered transparency for a glowing trail effect  
+
+---
+
+## 🎯 Aim
+
+To create a Python-based graphical animation that simulates the **Matrix Code Rain** effect using Pygame.
+
+---
+
+## ⚙️ Requirements
+
+Install the required module before running:
+
+```bash
+pip install pygame
