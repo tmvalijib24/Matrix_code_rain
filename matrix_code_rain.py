@@ -1,6 +1,5 @@
 import pygame
 from random import choice, randrange
-
 pygame.init()
 
 WIDTH, HEIGHT = 1920, 1080
@@ -26,7 +25,6 @@ display_surface = pygame.Surface(RES)
 display_surface.set_alpha(alpha_value)
 
 clock = pygame.time.Clock()
-
 
 class Symbol:
     def __init__(self, x, y):
